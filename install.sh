@@ -27,7 +27,7 @@ apt-get update
 
 # Install Apache, Redis and PHP extensions
 apt-get install apache2 -y
-apt-get install php7.1 php7.1-curl php7.1-gd php7.1-fpm php7.1-cli php7.1-opcache php7.1-mbstring php7.1-xml php7.1-zip -y
+apt-get install php7.1 php7.1-curl php7.1-gd php7.1-fpm php7.1-cli php7.1-opcache php7.1-mbstring php7.1-xml php7.1-zip libapache2-mod-php7.2 -y
 apt-get install redis-server php-redis -y
 
 # Install MySQL database server
